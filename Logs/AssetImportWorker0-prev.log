@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'ru' Physical Memory: 15696 MB
@@ -171,3 +173,22 @@ Received Import Request.
   path: Assets/Scenes/LevelDesign.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/LevelDesign.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fdcdcb12edf6373fd5d3abdb1402e0') in 0.013377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 268.463879 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.013824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.630525 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(d19b08f2208bf1e4487090d5ae307c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(d19b08f2208bf1e4487090d5ae307c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e398431b3b2dc224f673970cedeceaba') in 0.008755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.353898 seconds.
+  path: Assets/Prefabs/Level.prefab
+  artifactKey: Guid(ffdd8157358c3544f852d42c2f997c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level.prefab using Guid(ffdd8157358c3544f852d42c2f997c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e14f653d7910205acd261eb78a0819') in 0.158368 seconds 
+>>>>>>> 6f7340d763ba06c493392b12ad1fec0aa8fb3982

@@ -50608,7 +50608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1314888224881019033}
   m_Layer: 0
-  m_Name: LeverArm
+  m_Name: Lever
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

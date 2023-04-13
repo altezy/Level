@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BasementFloor
+  m_Name: BasementDoorWall
   m_Shader: {fileID: 47, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
   - _METALLICGLOSSMAP
@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 6c1a5da38bb88774ca09b4a5bfdac545, type: 3}
+        m_Texture: {fileID: 2800000, guid: 160e3712b525d5a4fbbd23fd466ff1a2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -45,11 +45,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3f268e074a13c5b4598fc3f8c38ca690, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2a019337afd679a4ebc42941788b98a9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: c1907b7b7991d364cbf284dbf4faf0fc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 033b92908ba8c2645aa174bc95c2bcc0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -57,11 +57,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: d6acc317230ff704f9269c52fc95efea, type: 3}
+        m_Texture: {fileID: 2800000, guid: e108756b26826b9429b238b2b7daeb10, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
-        m_Texture: {fileID: 2800000, guid: 3139fd6225c3b9144b3bd9d2e5afccd4, type: 3}
+        m_Texture: {fileID: 2800000, guid: fb9021efdfaf72448a50e314df68b9aa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []

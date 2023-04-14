@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 648016445866827224}
   - component: {fileID: 3394237268134734098}
   m_Layer: 0
-  m_Name: BasementShortFloor
+  m_Name: ShortStaircaseFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 95d711927e48b5646ad6e903c9a0d9c1, type: 2}
+  - {fileID: 5561349426305759274, guid: 597084b48ef5afc4f857a478611927d8, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

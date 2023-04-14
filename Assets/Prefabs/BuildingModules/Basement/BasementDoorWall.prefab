@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5082708891369981235}
   - component: {fileID: 7020442797463515641}
   m_Layer: 0
-  m_Name: DoorWall
+  m_Name: BasementDoorWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

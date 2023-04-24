@@ -56,6 +56,7 @@
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\Materials\BuildingModules" />
+     <Folder Include="Assets\Textures\BuildingModules\CorridorsFloor" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\Textures\BuildingModules\BasementDoorWall" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
@@ -75,6 +76,7 @@
      <Folder Include="Assets\Prefabs\BuildingModules" />
      <Folder Include="Assets\Materials" />
      <Folder Include="Assets\Prefabs\BuildingModules\Basement" />
+     <Folder Include="Assets\Prefabs\BuildingModules\Staircase" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets\Textures\BuildingModules\BasementFloor" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />

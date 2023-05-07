@@ -593,6 +593,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1390270241}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -636,10 +640,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1253,6 +1253,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1445880683}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1296,10 +1300,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1451,6 +1451,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1445880683}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1494,10 +1498,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2718,10 +2718,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1759204602}
     m_Modifications:
-    - target: {fileID: 2938485756242412261, guid: 0a18eb76fde3a0f4ea7e62ea00c38551, type: 3}
-      propertyPath: m_Name
-      value: BasementFloor
-      objectReference: {fileID: 0}
     - target: {fileID: 2561503194059348063, guid: 0a18eb76fde3a0f4ea7e62ea00c38551, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2765,6 +2761,10 @@ PrefabInstance:
     - target: {fileID: 2561503194059348063, guid: 0a18eb76fde3a0f4ea7e62ea00c38551, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938485756242412261, guid: 0a18eb76fde3a0f4ea7e62ea00c38551, type: 3}
+      propertyPath: m_Name
+      value: BasementFloor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3615,6 +3615,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1390270241}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3658,10 +3662,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3879,6 +3879,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1445880683}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3922,10 +3926,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5427,6 +5427,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1445880683}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5470,10 +5474,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6296,7 +6296,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &709406827
 Transform:
   m_ObjectHideFlags: 0
@@ -7600,6 +7600,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1390270241}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -7643,10 +7647,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8294,6 +8294,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1390270241}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -8337,10 +8341,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9096,6 +9096,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1445880683}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -9139,10 +9143,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10020,6 +10020,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1390270241}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -10063,10 +10067,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10416,6 +10416,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1445880683}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -10459,10 +10463,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10620,7 +10620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4839114238087201878, guid: 12cc57de5d0093344a6d15c11e6c7507, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5218594920751259372, guid: 12cc57de5d0093344a6d15c11e6c7507, type: 3}
       propertyPath: m_RootOrder
@@ -10684,6 +10684,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1445880683}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -10727,10 +10731,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11132,6 +11132,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1445880683}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -11175,10 +11179,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12628,6 +12628,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1390270241}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -12671,10 +12675,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12892,6 +12892,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1390270241}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -12935,10 +12939,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14949,6 +14949,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1445880683}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -14992,10 +14996,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15213,10 +15213,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1759204602}
     m_Modifications:
-    - target: {fileID: 2938485756242412261, guid: 0a18eb76fde3a0f4ea7e62ea00c38551, type: 3}
-      propertyPath: m_Name
-      value: BasementFloor (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 2561503194059348063, guid: 0a18eb76fde3a0f4ea7e62ea00c38551, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -15260,6 +15256,10 @@ PrefabInstance:
     - target: {fileID: 2561503194059348063, guid: 0a18eb76fde3a0f4ea7e62ea00c38551, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938485756242412261, guid: 0a18eb76fde3a0f4ea7e62ea00c38551, type: 3}
+      propertyPath: m_Name
+      value: BasementFloor (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16108,6 +16108,7 @@ Transform:
   - {fileID: 2130528888}
   - {fileID: 1716085337}
   - {fileID: 709406827}
+  - {fileID: 2080830671624124190}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17302,6 +17303,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1390270241}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -17345,10 +17350,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17764,6 +17765,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1445880683}
     m_Modifications:
+    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
+      propertyPath: m_Name
+      value: CorridorCeiling (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -17807,10 +17812,6 @@ PrefabInstance:
     - target: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102171958266371480, guid: ad66db44822a82143a13c6868a192744, type: 3}
-      propertyPath: m_Name
-      value: CorridorCeiling (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18418,6 +18419,72 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8519868728245700396, guid: e438ea58348eccc44a605f2b0a09bf86, type: 3}
   m_PrefabInstance: {fileID: 3354500671020901336}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2080830671624124189
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1967544269}
+    m_Modifications:
+    - target: {fileID: 7079291427520527315, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+      propertyPath: m_Name
+      value: Ladder
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599088416535634281, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599088416535634281, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.9263477
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599088416535634281, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.9141321
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599088416535634281, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.006647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599088416535634281, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9585512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599088416535634281, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599088416535634281, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.28492033
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599088416535634281, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599088416535634281, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599088416535634281, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 33.108
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599088416535634281, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+--- !u!4 &2080830671624124190 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7599088416535634281, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+  m_PrefabInstance: {fileID: 2080830671624124189}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &2140869376324525580 stripped
 Transform:

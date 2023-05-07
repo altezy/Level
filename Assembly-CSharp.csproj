@@ -59,11 +59,13 @@
      <Folder Include="Assets\Materials\BuildingModules" />
      <Folder Include="Assets\Textures\BuildingModules\CorridorsFloor" />
      <Folder Include="Assets\TextMesh Pro" />
+     <Folder Include="Assets\Prefabs\BuildingModules\Lounge" />
      <Folder Include="Assets\Textures\BuildingModules\BasementDoorWall" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <Folder Include="Assets\Prefabs\BuildingModules\Bedroom" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <Folder Include="Assets\Textures\BuildingModules\BasementWall" />
@@ -76,6 +78,7 @@
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\Prefabs\BuildingModules" />
      <Folder Include="Assets\Materials" />
+     <Folder Include="Assets\Prefabs\BuildingModules\Office" />
      <Folder Include="Assets\Prefabs\BuildingModules\Basement" />
      <Folder Include="Assets\Prefabs\BuildingModules\Staircase" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />

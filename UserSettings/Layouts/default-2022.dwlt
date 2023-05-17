@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,8 +120,8 @@ MonoBehaviour:
     y: 0
     width: 207.2
     height: 444.8
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -384,7 +384,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/BuildingModules/Staircase
+    - Assets/Textures/BuildingModules/LoungeWalls
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -392,16 +392,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/BuildingModules/Staircase
+  - Assets/Textures/BuildingModules/LoungeWalls
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\alexa\Studying\UnityProjects\LevelDesign
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 180}
-    m_SelectedIDs: c4650000
-    m_LastClickedID: 26052
-    m_ExpandedIDs: 000000005c6500005e65000060650000b6650000b8650000ce650000d88f000000ca9a3b
+    scrollPos: {x: 0, y: 303}
+    m_SelectedIDs: f2d20000
+    m_LastClickedID: 54002
+    m_ExpandedIDs: 00000000da650000dc650000de650000e0650000e4650000e665000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -429,7 +429,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005c6500005e6500006065000062650000
+    m_ExpandedIDs: 00000000da650000dc650000de650000e0650000e2650000e4650000e6650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -569,9 +569,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: d2baffff
       m_LastClickedID: 0
-      m_ExpandedIDs: 26fbffff50600000
+      m_ExpandedIDs: 26fbffff265d0000585e000060600000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -886,9 +886,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -28.323711, y: 0.7134999, z: 13.08301}
+    m_Target: {x: -95.127525, y: -29.249878, z: 37.120262}
     speed: 2
-    m_Value: {x: -28.323711, y: 0.7134999, z: 13.08301}
+    m_Value: {x: -95.127525, y: -29.249878, z: 37.120262}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -934,13 +934,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.25144115, y: 0.06564235, z: -0.01825247, w: -0.96603364}
+    m_Target: {x: 0.39346594, y: -0.22638538, z: 0.10153519, w: 0.88586575}
     speed: 2
-    m_Value: {x: -0.25133184, y: 0.0641584, z: -0.01786559, w: -0.9656069}
+    m_Value: {x: 0.39324316, y: -0.22625722, z: 0.101477705, w: 0.8853642}
   m_Size:
-    m_Target: 6.4146614
+    m_Target: 37.484756
     speed: 2
-    m_Value: 6.138432
+    m_Value: 35.87058
   m_Ortho:
     m_Target: 0
     speed: 2

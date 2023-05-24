@@ -81,6 +81,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <Folder Include="Assets\Prefabs\BuildingModules\Bedroom" />
+     <Folder Include="Assets\Textures\Objects\Chair" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <Folder Include="Assets\Textures\Objects\Box" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
@@ -110,6 +111,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <Folder Include="Assets\Textures" />
+     <Folder Include="Assets\Textures\BuildingModules\BasementDoorframe" />
      <Folder Include="Assets\Scenes" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <Folder Include="Assets\TextMesh Pro\Documentation" />

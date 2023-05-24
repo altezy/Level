@@ -384,7 +384,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Textures/Objects/Bed
+    - Assets/Prefabs/Objects
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -392,30 +392,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Textures/Objects/Bed
+  - Assets/Prefabs/Objects
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\alexa\Studying\UnityProjects\LevelDesign
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 159}
-    m_SelectedIDs: 58670000
-    m_LastClickedID: 26456
-    m_ExpandedIDs: 00000000ec650000ee650000f2650000f46500007266000000ca9a3b
+    scrollPos: {x: 0, y: 180}
+    m_SelectedIDs: b0660000
+    m_LastClickedID: 26288
+    m_ExpandedIDs: 000000004466000046660000486600004a660000ac660000ba66000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: BuildingModules
+      m_OriginalName: BuildingModules
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 26312
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
@@ -429,7 +429,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec650000ee650000f0650000f2650000f4650000f6650000
+    m_ExpandedIDs: 000000004466000046660000486600004a660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -569,9 +569,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a8e9ffff
-      m_LastClickedID: 0
-      m_ExpandedIDs: 26fbffff5c5e0000
+      m_SelectedIDs: 8ec5ffff
+      m_LastClickedID: -14962
+      m_ExpandedIDs: 26fbffff305d0000625e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -886,9 +886,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -80.20814, y: 3.265875, z: 12.38831}
+    m_Target: {x: -82.80787, y: 5.2827816, z: 8.798638}
     speed: 2
-    m_Value: {x: -80.20814, y: 3.265875, z: 12.38831}
+    m_Value: {x: -82.80787, y: 5.2827816, z: 8.798638}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -934,13 +934,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.40064847, y: -0.02707238, z: 0.013210876, w: 0.9163666}
+    m_Target: {x: 0.2952228, y: -0.53614473, z: 0.20907168, w: 0.76348865}
     speed: 2
-    m_Value: {x: 0.40312147, y: -0.029760707, z: 0.014494002, w: 0.91454756}
+    m_Value: {x: 0.29535398, y: -0.5346692, z: 0.20850006, w: 0.76382107}
   m_Size:
-    m_Target: 5.446337
+    m_Target: 1.2283078
     speed: 2
-    m_Value: 5.211806
+    m_Value: 1.2861862
   m_Ortho:
     m_Target: 0
     speed: 2

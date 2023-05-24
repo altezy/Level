@@ -61,6 +61,8 @@
      <Folder Include="Assets\Materials\Objects" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <Folder Include="Assets\Textures\Objects\Bookshelf" />
+     <Folder Include="Assets\Textures\Objects\Table" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <Folder Include="Assets\Textures\BuildingModules\Stair" />

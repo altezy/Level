@@ -5,6 +5,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject camera;
     [SerializeField] private float movementSpeed;
     [SerializeField] private float rotationSpeed;
+    [SerializeField] private PlayerInventory inventory;
+
+    public PlayerInventory Inventory => inventory;
 
     private void Update()
     {

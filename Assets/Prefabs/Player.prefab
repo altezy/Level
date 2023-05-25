@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 6326412461561011436}
   - component: {fileID: 3482314345505022568}
   - component: {fileID: 3531371816843799337}
+  - component: {fileID: 2986756830515422923}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -190,4 +191,16 @@ MonoBehaviour:
   camera: {fileID: 3438858588785906044}
   movementSpeed: 2
   rotationSpeed: 100
-  maxVerticalRotation: 30
+  inventory: {fileID: 0}
+--- !u!114 &2986756830515422923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7166795464459718943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c755fe7ef09741f59df4220ceddceb55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

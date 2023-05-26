@@ -75,6 +75,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a67625695a4008b4793d944bebd1ccc5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7614801760596787457}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a67625695a4008b4793d944bebd1ccc5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1614071740445815940}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a67625695a4008b4793d944bebd1ccc5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4188387032406956324}
   m_SourcePrefab: {fileID: 100100000, guid: a67625695a4008b4793d944bebd1ccc5, type: 3}
 --- !u!1 &1668967297628062863 stripped
 GameObject:
@@ -102,3 +108,44 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2000003, y: 0.06, z: 0.5000001}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1614071740445815940
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668967297628062863}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.2333317
+  m_Height: 3.7533374
+  m_Direction: 1
+  m_Center: {x: -1.8947602e-15, y: -1.2766688, z: 0.6333318}
+--- !u!114 &4188387032406956324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668967297628062863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e787c94ab64318a3c0e25f162d0334, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  afterInteraction: 1
+  neededItem: "\u0421\u0442\u0440\u0435\u043C\u044F\u043D\u043A\u0430"
+  cannotInteractMessage: "\u042F\u0449\u0438\u043A \u0441\u043B\u0438\u0448\u043A\u043E\u043C
+    \u0432\u044B\u0441\u043E\u043A\u043E, \u043D\u0443\u0436\u043D\u0430 \u0441\u0442\u0440\u0435\u043C\u044F\u043D\u043A\u0430"
+  objectOnShelf: {fileID: 0}
+  takenObjectCoordinates: {x: -5.3, y: 0.5, z: 3.86}

@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
+    [SerializeField] private InventoryView view;
     private List<string> items;
 
     private void Start()
@@ -15,14 +16,20 @@ public class PlayerInventory : MonoBehaviour
         if (!items.Contains(item))
         {
             items.Add(item);
+            view.AddItem(item);
             return true;
         }
         return false;
     }
 
-    public void RemoveItem(string item)
+    public bool RemoveItem(string item)
     {
-        items.Remove(item);
+        if (items.Remove(item))
+        {
+            view.RemoveItem(item);
+            return true;
+        }
+        return false;
     }
 
     public bool ContainsItem(string name)

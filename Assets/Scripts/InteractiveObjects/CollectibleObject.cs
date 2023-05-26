@@ -1,11 +1,20 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class CollectibleObject : InteractiveObject
 {
-    [SerializeField] private string item;
+    [SerializeField] private List<string> items;
     
     protected override bool TryToInteract(PlayerController player)
     {
-        return player.Inventory.AddItem(item);
+        var allAdded = true;
+        foreach (var item in items)
+        {
+            if (!player.Inventory.AddItem(item))
+            {
+                allAdded = false;
+            }
+        }
+        return allAdded;
     }
 }

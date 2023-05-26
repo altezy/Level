@@ -45,11 +45,16 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.2.16f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\InteractiveObjects\ItemNeededObjects\DoorWithWindowAndKey.cs" />
+     <Compile Include="Assets\Scripts\InteractiveObjects\ItemNeededObjects\ItemNeededInteractiveObject.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMover.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
      <Compile Include="Assets\Scripts\InteractiveObjects\CollectibleObject.cs" />
+     <Compile Include="Assets\Scripts\UI\CannotInteractMessage.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerInventory.cs" />
-     <Compile Include="Assets\Scripts\InteractiveObjects\ItemNeededInteractiveObject.cs" />
+     <Compile Include="Assets\Scripts\UI\InventoryView.cs" />
      <Compile Include="Assets\Scripts\InteractiveObjects\InteractiveObject.cs" />
+     <Compile Include="Assets\Scripts\InteractiveObjects\ItemNeededObjects\Shelf.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Prefabs\BuildingModules\Corridors" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -61,6 +66,7 @@
      <Folder Include="Assets\Models" />
      <Folder Include="Assets\Materials\BuildingModules\Bedroom" />
      <Folder Include="Assets\Materials\BuildingModules\LivingSections" />
+     <Folder Include="Assets\Scripts\InteractiveObjects\ItemNeededObjects" />
      <Folder Include="Assets\Meshes" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <Folder Include="Assets\Prefabs" />
@@ -108,6 +114,7 @@
      <Folder Include="Assets\Textures\Objects" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
      <Folder Include="Assets\Textures\BuildingModules\Office" />
+     <Folder Include="Assets\Scripts\UI" />
      <Folder Include="Assets\Meshes\BuildingModules" />
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
      <Folder Include="Assets\TextMesh Pro\Fonts" />

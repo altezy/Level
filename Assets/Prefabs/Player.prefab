@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 3482314345505022568}
   - component: {fileID: 3531371816843799337}
   - component: {fileID: 2986756830515422923}
+  - component: {fileID: 1494731374032342923}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -188,10 +189,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dcc159dd4b87f74ab17e5551933da0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 3438858588785906044}
-  movementSpeed: 2
-  rotationSpeed: 100
-  inventory: {fileID: 0}
+  inventory: {fileID: 2986756830515422923}
+  interactMessage: {fileID: 0}
 --- !u!114 &2986756830515422923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,3 +203,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c755fe7ef09741f59df4220ceddceb55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  view: {fileID: 0}
+--- !u!114 &1494731374032342923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7166795464459718943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5396530fa7f8433c8a78cbd9eec74a62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 3438858588785906044}
+  movementSpeed: 5
+  rotationSpeed: 100

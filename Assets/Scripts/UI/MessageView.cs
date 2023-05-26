@@ -2,13 +2,14 @@
 using TMPro;
 using UnityEngine;
 
-public class CannotInteractMessage : MonoBehaviour
+public class MessageView : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI message;
     [SerializeField] private float messageLifeTime;
 
     public void ShowMessage(string text)
     {
+        StopCoroutine(nameof(MessageShowRoutine));
         message.text = text;
         StartCoroutine(nameof(MessageShowRoutine));
     }

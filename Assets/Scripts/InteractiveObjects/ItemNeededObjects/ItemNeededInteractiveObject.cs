@@ -7,14 +7,14 @@ public class ItemNeededInteractiveObject : InteractiveObject
     
     protected override bool TryToInteract(PlayerController player)
     {
-        if (player.Inventory.ContainsItem(neededItem))
+        if (neededItem == "" || player.Inventory.ContainsItem(neededItem))
         {
-            FindObjectOfType<CannotInteractMessage>().HideMessage();
+            MessageView.HideMessage();
             player.Inventory.RemoveItem(neededItem);
             Interact(player);
             return true;
         }
-        FindObjectOfType<CannotInteractMessage>().ShowMessage(cannotInteractMessage);
+        MessageView.ShowMessage(cannotInteractMessage);
         return false;
     }
 

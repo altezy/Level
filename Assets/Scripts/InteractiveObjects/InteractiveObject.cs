@@ -6,15 +6,23 @@ public abstract class InteractiveObject : MonoBehaviour
     {
         StayAfterInteraction,
         DisableAfterInteraction,
+        DeactivateAfterInteraction,
         DestroyAfterInteraction
     }
     
     [SerializeField] protected AfterInteraction afterInteraction;
+    [SerializeField] protected string successfulInteractionMessage;
+    [SerializeField] private InteractiveObject nextInteractionSettings;
     private PlayerController player;
-    private int successfulIInteractionsCount;
+    private MessageView messageView;
 
-    protected int SuccessfulIInteractionsCount => successfulIInteractionsCount;
-    
+    protected MessageView MessageView => messageView;
+
+    private void Start()
+    {
+        messageView = FindObjectOfType<MessageView>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent<PlayerController>(out var player))
@@ -39,7 +47,12 @@ public abstract class InteractiveObject : MonoBehaviour
         {
             if (TryToInteract(player))
             {
-                successfulIInteractionsCount++;
+                messageView.ShowMessage(successfulInteractionMessage);
+                if (nextInteractionSettings)
+                {
+                    nextInteractionSettings.enabled = true;
+                    enabled = false;
+                }
                 switch (afterInteraction)
                 {
                     case AfterInteraction.DestroyAfterInteraction:
@@ -49,6 +62,10 @@ public abstract class InteractiveObject : MonoBehaviour
                     case AfterInteraction.DisableAfterInteraction:
                         player.InteractMessage.SetActive(false);
                         enabled = false;
+                        break;
+                    case AfterInteraction.DeactivateAfterInteraction:
+                        player.InteractMessage.SetActive(false);
+                        gameObject.SetActive(false);
                         break;
                     case AfterInteraction.StayAfterInteraction:
                         break;

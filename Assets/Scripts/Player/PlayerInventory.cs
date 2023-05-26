@@ -11,15 +11,10 @@ public class PlayerInventory : MonoBehaviour
         items = new List<string>();
     }
 
-    public bool AddItem(string item)
+    public void AddItem(string item)
     {
-        if (!items.Contains(item))
-        {
-            items.Add(item);
-            view.AddItem(item);
-            return true;
-        }
-        return false;
+         items.Add(item);
+         view.AddItem(item);
     }
 
     public bool RemoveItem(string item)

@@ -144,6 +144,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   afterInteraction: 1
+  successfulInteractionMessage: "\u0412\u044B \u0434\u043E\u0441\u0442\u0430\u043B\u0438
+    \u044F\u0449\u0438\u043A \u0441 \u043F\u043E\u043B\u043A\u0438"
+  nextInteractionSettings: {fileID: 0}
   neededItem: "\u0421\u0442\u0440\u0435\u043C\u044F\u043D\u043A\u0430"
   cannotInteractMessage: "\u042F\u0449\u0438\u043A \u0441\u043B\u0438\u0448\u043A\u043E\u043C
     \u0432\u044B\u0441\u043E\u043A\u043E, \u043D\u0443\u0436\u043D\u0430 \u0441\u0442\u0440\u0435\u043C\u044F\u043D\u043A\u0430"

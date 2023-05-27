@@ -9,11 +9,12 @@ public abstract class InteractiveObject : MonoBehaviour
         DeactivateAfterInteraction,
         DestroyAfterInteraction
     }
-    
+
+    [SerializeField] private Collider trigger;
     [SerializeField] protected AfterInteraction afterInteraction;
     [SerializeField] protected string successfulInteractionMessage;
     [SerializeField] private InteractiveObject nextInteractionSettings;
-    [SerializeField] private PlayerController player;
+    private PlayerController player;
     private MessageView messageView;
 
     protected MessageView MessageView => messageView;
@@ -21,6 +22,16 @@ public abstract class InteractiveObject : MonoBehaviour
     private void Start()
     {
         messageView = FindObjectOfType<MessageView>();
+    }
+
+    private void OnEnable()
+    {
+        trigger.enabled = true;
+    }
+
+    private void OnDisable()
+    {
+        trigger.enabled = false;
     }
 
     private void OnTriggerEnter(Collider other)

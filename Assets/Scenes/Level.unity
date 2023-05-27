@@ -1072,11 +1072,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746c2f6d8f13403ba8515507a8c14bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 106896539}
   afterInteraction: 3
   successfulInteractionMessage: "\u0412\u044B \u043D\u0430\u0448\u043B\u0438 \u043A\u0435\u0440\u043E\u0441\u0438\u043D\u043E\u0432\u0443\u044E
     \u043B\u0430\u043C\u043F\u0443"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems: []
   cannotInteractMessage: 
@@ -1099,7 +1099,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.6430012
   m_Center: {x: 0.05113566, y: 0.15250015, z: -0.52913356}
@@ -3249,6 +3249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746c2f6d8f13403ba8515507a8c14bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 189539017}
   afterInteraction: 1
   successfulInteractionMessage: "\u0412 \u0434\u043D\u0435\u0432\u043D\u0438\u043A\u0435
     \u0432\u044B \u043D\u0430\u0448\u043B\u0438 \u0434\u0432\u0435 \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0438:
@@ -3258,7 +3259,6 @@ MonoBehaviour:
     \u043F\u043E\u0432\u043E\u0440\u043E\u0442 \u0441\u0442\u0440\u0435\u043B\u043E\u043A
     \u0447\u0430\u0441\u043E\u0432"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems: []
   cannotInteractMessage: 
@@ -3282,7 +3282,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.4846583
   m_Center: {x: 0.2609917, y: 0.032500267, z: -0.4036674}
@@ -5550,11 +5550,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746c2f6d8f13403ba8515507a8c14bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 364250283}
   afterInteraction: 1
   successfulInteractionMessage: "\u0412\u044B \u043D\u0430\u0448\u043B\u0438 \u0432
     \u0443\u0433\u043B\u044F\u0445 \u043E\u0431\u0440\u044B\u0432\u043E\u043A \u043A\u043E\u0434\u0430"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u0429\u0438\u043F\u0446\u044B"
@@ -5897,7 +5897,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 1.36905
   m_Center: {x: -0.39155483, y: 1.1925001, z: -1.3824997}
@@ -5951,12 +5951,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb030a864384deea5f34460af26f663, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 364358932}
   afterInteraction: 2
   successfulInteractionMessage: "\u0412\u044B \u043E\u0442\u043A\u0440\u044B\u043B\u0438
     \u0434\u0432\u0435\u0440\u044C \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E
     \u043A\u043B\u044E\u0447\u0430"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041A\u043B\u044E\u0447 \u21162"
@@ -5979,7 +5979,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 1.1199999
   m_Center: {x: 0.30750275, y: 1.1199999, z: 0.42000008}
@@ -7597,12 +7597,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1231d34e20b438ca91799c2555a3398, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 447780525}
   afterInteraction: 2
   successfulInteractionMessage: "\u0412\u044B \u043E\u0442\u043A\u0440\u044B\u043B\u0438
     \u0434\u0432\u0435\u0440\u044C, \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u044F
     \u043A\u043E\u0434"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041A\u043E\u0434 \u21161"
@@ -7628,7 +7628,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 1.1199999
   m_Center: {x: 0.30750275, y: 1.1199999, z: 0.42000008}
@@ -8795,11 +8795,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746c2f6d8f13403ba8515507a8c14bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 539753044}
   afterInteraction: 3
   successfulInteractionMessage: "\u0412\u044B \u043D\u0430\u0448\u043B\u0438 \u043A\u0430\u043C\u0438\u043D\u043D\u044B\u0435
     \u0449\u0438\u043F\u0446\u044B"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems: []
   cannotInteractMessage: 
@@ -8822,7 +8822,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.7873802
   m_Center: {x: 0.16373825, y: 0.008749962, z: -0.25}
@@ -9197,7 +9197,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 1.1679866
   m_Center: {x: -0.57781094, y: 0.48499966, z: 0.5862966}
@@ -9213,12 +9213,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746c2f6d8f13403ba8515507a8c14bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 545070810}
   afterInteraction: 1
   successfulInteractionMessage: "\u0412\u044B \u0432\u0441\u043A\u0440\u044B\u043B\u0438
     \u043E\u0431\u0438\u0432\u043A\u0443, \u043D\u043E \u043F\u043E\u0434 \u043D\u0435\u0439
     \u043D\u0438\u0447\u0435\u0433\u043E \u043D\u0435\u0442"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041D\u043E\u0436\u043D\u0438\u0446\u044B"
@@ -10139,10 +10139,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746c2f6d8f13403ba8515507a8c14bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 556209650}
   afterInteraction: 3
   successfulInteractionMessage: "\u0412\u044B \u043D\u0430\u0448\u043B\u0438 \u0442\u0440\u0430\u0444\u0430\u0440\u0435\u0442"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems: []
   cannotInteractMessage: 
@@ -10165,7 +10165,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.5414283
   m_Center: {x: 0.045502424, y: 0.025000095, z: -0.46193075}
@@ -11937,7 +11937,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &709406827
 Transform:
   m_ObjectHideFlags: 0
@@ -12095,12 +12095,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb030a864384deea5f34460af26f663, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 712863395}
   afterInteraction: 2
   successfulInteractionMessage: "\u0412\u044B \u043E\u0442\u043A\u0440\u044B\u043B\u0438
     \u0434\u0432\u0435\u0440\u044C \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E
     \u043A\u043B\u044E\u0447\u0430"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041A\u043B\u044E\u0447 \u21163"
@@ -12123,7 +12123,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 1.1199999
   m_Center: {x: 0.30750275, y: 1.1199999, z: 0.42000008}
@@ -13686,7 +13686,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.54455614
   m_Center: {x: 0.44365692, y: 0.015000343, z: 0.24839926}
@@ -14018,12 +14018,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746c2f6d8f13403ba8515507a8c14bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 821399320}
   afterInteraction: 1
   successfulInteractionMessage: "\u0412\u044B \u043F\u0440\u0438\u043B\u043E\u0436\u0438\u043B\u0438
     \u0442\u0440\u0430\u0444\u0430\u0440\u0435\u0442 \u043A \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0443
     \u0438 \u0443\u0437\u043D\u0430\u043B\u0438 \u043A\u043E\u0434"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u0422\u0440\u0430\u0444\u0430\u0440\u0435\u0442"
@@ -14286,7 +14286,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 1.1043628
   m_Center: {x: -0.57871044, y: 0.48499966, z: 0.75181556}
@@ -14302,12 +14302,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746c2f6d8f13403ba8515507a8c14bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 850485965}
   afterInteraction: 1
   successfulInteractionMessage: "\u0412\u044B \u0432\u0441\u043A\u0440\u044B\u043B\u0438
     \u043E\u0431\u0438\u0432\u043A\u0443 \u043A\u0440\u0435\u0441\u043B\u0430 \u0438
     \u043D\u0430\u0448\u043B\u0438 \u043F\u043E\u0434 \u043D\u0435\u0439 \u043A\u043B\u044E\u0447"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041D\u043E\u0436\u043D\u0438\u0446\u044B"
@@ -14748,12 +14748,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746c2f6d8f13403ba8515507a8c14bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 868547747}
   afterInteraction: 1
   successfulInteractionMessage: "\u0412\u044B \u043E\u0442\u043A\u0440\u044B\u043B\u0438
     \u0441\u0435\u0439\u0444 \u0438 \u043D\u0430\u0448\u043B\u0438 \u0432 \u043D\u0451\u043C
     \u043A\u043B\u044E\u0447"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u0424\u0440\u0430\u0433\u043C\u0435\u043D\u0442 \u043A\u043E\u0434\u0430 \u21161"
@@ -14783,7 +14783,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.6371359
   m_Center: {x: 0.39, y: 0.3421371, z: 0.24750042}
@@ -16176,6 +16176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746c2f6d8f13403ba8515507a8c14bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 987462656}
   afterInteraction: 1
   successfulInteractionMessage: "\u0412\u044B \u043F\u043E\u0432\u0435\u0440\u043D\u0443\u043B\u0438
     \u0441\u0442\u0440\u0435\u043B\u043A\u0438 \u043D\u0430 \u043D\u0443\u0436\u043D\u044B\u0439
@@ -16184,7 +16185,6 @@ MonoBehaviour:
     \u043E\u0442\u043A\u0440\u044B\u043B\u0438\u0441\u044C \u0438 \u0432\u044B \u043D\u0430\u0448\u043B\u0438
     \u0432 \u043D\u0438\u0445 \u0444\u0440\u0430\u0433\u043C\u0435\u043D\u0442 \u043A\u043E\u0434\u0430"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation:
   - "\u041F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430 \u21163 (\u0447\u0430\u0441\u044B)"
   neededItems:
@@ -16209,7 +16209,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.25927937
   m_Height: 1.1217061
@@ -23926,7 +23926,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1445880683
 Transform:
   m_ObjectHideFlags: 0
@@ -25014,12 +25014,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746c2f6d8f13403ba8515507a8c14bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 1605713263}
   afterInteraction: 1
   successfulInteractionMessage: "\u0412 \u043A\u0443\u0447\u0435 \u043C\u0443\u0441\u043E\u0440\u0430
     \u0432\u044B \u043D\u0430\u0448\u043B\u0438 \u0444\u0440\u0430\u0433\u043C\u0435\u043D\u0442
     \u043A\u043E\u0434\u0430"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041B\u0430\u043C\u043F\u0430"
@@ -25044,7 +25044,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 1.47
   m_Center: {x: 0, y: 0, z: -0.92}
@@ -25654,6 +25654,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6698593580964894553, guid: effefa2a6b9d3d6428f39a1f1f75e1a8, type: 3}
   m_PrefabInstance: {fileID: 1639241433}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1645640352 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8826341970737205446, guid: b9edc1a0c380f824cb0fba61f41ad003, type: 3}
+  m_PrefabInstance: {fileID: 907896439}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bdcc2785c3b4391a8af506d4b2419c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1647130759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25869,10 +25880,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746c2f6d8f13403ba8515507a8c14bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 1690827195}
   afterInteraction: 1
   successfulInteractionMessage: "\u042F\u0449\u0438\u043A \u043F\u0443\u0441\u0442"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems: []
   cannotInteractMessage: 
@@ -25894,7 +25905,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.84
   m_Center: {x: 0, y: 0.018229559, z: 0}
@@ -27535,7 +27546,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 1.2877388
   m_Center: {x: 0.28690577, y: 0.93855286, z: 0.88996434}
@@ -29149,11 +29160,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a74bf7107a11402ba1d3e731810c07e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 1945597522}
   afterInteraction: 2
   successfulInteractionMessage: "\u0412\u044B \u0443\u0431\u0440\u0430\u043B\u0438
     \u043A\u043E\u0432\u0451\u0440"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   objectsUnderCarpet:
   - {fileID: 539753043}
   - {fileID: 0}
@@ -29174,7 +29185,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 4.1324387, y: 0.0149998665, z: 4.511553}
   m_Center: {x: -1.7636757, y: 0.007499695, z: -1.9579897}
@@ -29634,8 +29645,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e709416f202027b499986f492c330367, type: 2}
-  m_sharedMaterial: {fileID: -8313492658526241657, guid: e709416f202027b499986f492c330367, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1814c3fb4317d1d4c9a3b21f08758a3f, type: 2}
+  m_sharedMaterial: {fileID: -2255097413153779707, guid: 1814c3fb4317d1d4c9a3b21f08758a3f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31135,11 +31146,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746c2f6d8f13403ba8515507a8c14bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 2047781496}
   afterInteraction: 1
   successfulInteractionMessage: "\u0412\u044B \u043D\u0430\u0448\u043B\u0438 \u0432
     \u044F\u0449\u0438\u043A\u0435 \u043F\u0440\u043E\u0432\u043E\u043B\u043E\u043A\u0443"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems: []
   cannotInteractMessage: 
@@ -31162,7 +31173,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.84
   m_Center: {x: 0, y: 0.018229559, z: 0}
@@ -33133,6 +33144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746c2f6d8f13403ba8515507a8c14bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 947735915628808032}
   afterInteraction: 1
   successfulInteractionMessage: "\u0412\u044B \u043D\u0430\u0448\u043B\u0438 \u043F\u043E\u0434
     \u043A\u0440\u043E\u0432\u0430\u0442\u044C\u044E \u0434\u043D\u0435\u0432\u043D\u0438\u043A
@@ -33140,7 +33152,6 @@ MonoBehaviour:
     \u043D\u0430 \u043E\u0434\u043D\u0443 \u0438\u0437 \u043A\u043D\u0438\u0433 \u0432
     \u0448\u043A\u0430\u0444\u0443"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems: []
   cannotInteractMessage: 
@@ -33163,7 +33174,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 1.4904304
   m_Center: {x: -0.11106634, y: 0.41757774, z: -0.069719315}
@@ -33231,7 +33242,7 @@ PrefabInstance:
     - target: {fileID: 8826341970737205446, guid: b9edc1a0c380f824cb0fba61f41ad003, type: 3}
       propertyPath: correspondingPoint
       value: 
-      objectReference: {fileID: 1635058592111321918}
+      objectReference: {fileID: 1645640352}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33460,6 +33471,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1967544269}
     m_Modifications:
     - target: {fileID: 1242623968447753206, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+      propertyPath: trigger
+      value: 
+      objectReference: {fileID: 2080830671624124192}
+    - target: {fileID: 1242623968447753206, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
       propertyPath: afterInteraction
       value: 3
       objectReference: {fileID: 0}
@@ -33531,6 +33546,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7877388804873661477, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33539,6 +33558,11 @@ PrefabInstance:
 --- !u!4 &2080830671624124190 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7599088416535634281, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
+  m_PrefabInstance: {fileID: 2080830671624124189}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &2080830671624124192 stripped
+SphereCollider:
+  m_CorrespondingSourceObject: {fileID: 7877388804873661477, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
   m_PrefabInstance: {fileID: 2080830671624124189}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &2178063625720961342 stripped
@@ -33735,12 +33759,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6370273898002027577, guid: bf067f0a875000a43afd2990e4b23c27, type: 3}
+      propertyPath: trigger
+      value: 
+      objectReference: {fileID: 3335940315873350302}
+    - target: {fileID: 6370273898002027577, guid: bf067f0a875000a43afd2990e4b23c27, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8012910964522211573, guid: bf067f0a875000a43afd2990e4b23c27, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33750,6 +33778,11 @@ PrefabInstance:
 --- !u!4 &3335940315873350300 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4100519828346613319, guid: bf067f0a875000a43afd2990e4b23c27, type: 3}
+  m_PrefabInstance: {fileID: 3335940315873350299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &3335940315873350302 stripped
+SphereCollider:
+  m_CorrespondingSourceObject: {fileID: 8012910964522211573, guid: bf067f0a875000a43afd2990e4b23c27, type: 3}
   m_PrefabInstance: {fileID: 3335940315873350299}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3354500671020901336
@@ -34110,11 +34143,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4141535669078828442, guid: 2221d91e0a07c19428ec6f4d1dde6226, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -75
+      value: -38.21
       objectReference: {fileID: 0}
     - target: {fileID: 4141535669078828442, guid: 2221d91e0a07c19428ec6f4d1dde6226, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.97
+      value: 0.96
       objectReference: {fileID: 0}
     - target: {fileID: 4141535669078828442, guid: 2221d91e0a07c19428ec6f4d1dde6226, type: 3}
       propertyPath: m_LocalPosition.z
@@ -34792,6 +34825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb030a864384deea5f34460af26f663, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 6147559249464042867}
   afterInteraction: 2
   successfulInteractionMessage: "\u0412\u044B \u0432\u044B\u0442\u0430\u0449\u0438\u043B\u0438
     \u043A\u043D\u0438\u0433\u0443, \u0432\u043E\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0432\u0448\u0438\u0441\u044C
@@ -34799,7 +34833,6 @@ MonoBehaviour:
     \u043E\u0442\u043A\u0440\u044B\u043B\u0441\u044F \u0442\u0430\u0439\u043D\u044B\u0439
     \u043F\u0440\u043E\u0445\u043E\u0434"
   nextInteractionSettings: {fileID: 6147559249464042868}
-  player: {fileID: 0}
   itemsNeededForActivation:
   - "\u041F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430 \u21161 (\u043A\u043D\u0438\u0433\u0430)"
   neededItems:
@@ -34822,7 +34855,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 1.577446
   m_Center: {x: -0.077445984, y: 0.00000042073864, z: 0}
@@ -34838,13 +34871,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746c2f6d8f13403ba8515507a8c14bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 6147559249464042867}
   afterInteraction: 0
   successfulInteractionMessage: "\u0412\u044B \u0432\u044B\u0442\u0430\u0449\u0438\u043B\u0438
     \u043A\u043D\u0438\u0433\u0443, \u0432\u043E\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0432\u0448\u0438\u0441\u044C
     \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u043E\u0439, \u0438 \u043D\u0430\u0448\u043B\u0438
     \u0432 \u043D\u0435\u0439 \u0444\u0440\u0430\u0433\u043C\u0435\u043D\u0442 \u043A\u043E\u0434\u0430"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation:
   - "\u041F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430 \u21162 (\u043A\u043D\u0438\u0433\u0430)"
   neededItems:
@@ -35055,7 +35088,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1614071740445815940, guid: d105f6c538ef8434ea049c8ba09e9e76, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1668967297628062863, guid: d105f6c538ef8434ea049c8ba09e9e76, type: 3}
       propertyPath: m_Name
@@ -35106,6 +35139,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4188387032406956324, guid: d105f6c538ef8434ea049c8ba09e9e76, type: 3}
+      propertyPath: trigger
+      value: 
+      objectReference: {fileID: 6906292104151782096}
+    - target: {fileID: 4188387032406956324, guid: d105f6c538ef8434ea049c8ba09e9e76, type: 3}
       propertyPath: objectOnShelf
       value: 
       objectReference: {fileID: 234708543}
@@ -35147,6 +35184,11 @@ PrefabInstance:
 --- !u!4 &6906292104151782094 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2045351416250048053, guid: d105f6c538ef8434ea049c8ba09e9e76, type: 3}
+  m_PrefabInstance: {fileID: 6906292104151782093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &6906292104151782096 stripped
+CapsuleCollider:
+  m_CorrespondingSourceObject: {fileID: 1614071740445815940, guid: d105f6c538ef8434ea049c8ba09e9e76, type: 3}
   m_PrefabInstance: {fileID: 6906292104151782093}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6912278778818102049
@@ -35437,7 +35479,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 1.04
   m_Center: {x: 0, y: 0.9514736, z: 0.00000047683716}
@@ -35453,11 +35495,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff0d37fe90b04fa59405030daa8b3c30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 7416532079718061143}
   afterInteraction: 1
   successfulInteractionMessage: "\u0412\u044B \u0434\u043E\u0441\u0442\u0430\u043B\u0438
     \u043F\u0440\u043E\u0432\u043E\u043B\u043E\u043A\u043E\u0439 \u043A\u043B\u044E\u0447"
   nextInteractionSettings: {fileID: 7416532079718061148}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041F\u0440\u043E\u0432\u043E\u043B\u043E\u043A\u0430"
@@ -35479,11 +35521,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb030a864384deea5f34460af26f663, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 7416532079718061143}
   afterInteraction: 2
   successfulInteractionMessage: "\u0412\u044B \u043E\u0442\u043A\u0440\u044B\u043B\u0438
     \u0434\u0432\u0435\u0440\u044C"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041A\u043B\u044E\u0447 \u21161"
@@ -35954,12 +35996,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb030a864384deea5f34460af26f663, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: {fileID: 8241165725434225273}
   afterInteraction: 2
   successfulInteractionMessage: "\u0412\u044B \u0432\u0441\u043A\u0440\u044B\u043B\u0438
     \u0434\u0432\u0435\u0440\u044C \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E
     \u0433\u0432\u043E\u0437\u0434\u043E\u0434\u0451\u0440\u0430"
   nextInteractionSettings: {fileID: 0}
-  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u0413\u0432\u043E\u0437\u0434\u043E\u0434\u0451\u0440"
@@ -35983,7 +36025,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.9514736
   m_Center: {x: 0, y: 0.9514736, z: 0}

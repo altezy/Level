@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\InteractiveObjects\ItemNeededObjects\DoorWithWindowAndKey.cs" />
+     <Compile Include="Assets\Scripts\InteractiveObjects\ItemNeededObjects\Hatch.cs" />
      <Compile Include="Assets\Scripts\InteractiveObjects\ItemNeededObjects\ItemNeededInteractiveObject.cs" />
      <Compile Include="Assets\Scripts\InteractiveObjects\Carpet.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMover.cs" />
@@ -141,6 +142,7 @@
      <Folder Include="Assets\Scripts\Player" />
      <Folder Include="Assets\Textures\BuildingModules\LivingSections\LivingSectionsCeiling" />
      <Folder Include="Assets\Textures\Objects\Shelf" />
+     <Folder Include="Assets\Prefabs\Debug" />
      <Folder Include="Assets\Scripts\InteractiveObjects" />
      <Folder Include="Assets\Textures\BuildingModules\Basement\BasementFloor" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />

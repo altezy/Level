@@ -24696,6 +24696,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7825652336906547815, guid: ad66db44822a82143a13c6868a192744, type: 3}
   m_PrefabInstance: {fileID: 1559167616}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1560833081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 585728014593621251, guid: b9edc1a0c380f824cb0fba61f41ad003, type: 3}
+  m_PrefabInstance: {fileID: 2013797100}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1582624584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27191,6 +27196,7 @@ GameObject:
   - component: {fileID: 1790428587}
   - component: {fileID: 1790428586}
   - component: {fileID: 1790428591}
+  - component: {fileID: 1790428592}
   m_Layer: 0
   m_Name: Hatch
   m_TagString: Untagged
@@ -27550,6 +27556,30 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.2877388
   m_Center: {x: 0.28690577, y: 0.93855286, z: 0.88996434}
+--- !u!114 &1790428592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790428584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1a6e25959ac46d19ae3110bdd7bcdc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1790428591}
+  afterInteraction: 2
+  successfulInteractionMessage: "\u0412\u044B \u043E\u0442\u043A\u0440\u044B\u043B\u0438
+    \u043B\u044E\u043A \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E \u043E\u0442\u0432\u0451\u0440\u0442\u043A\u0438"
+  nextInteractionSettings: {fileID: 0}
+  itemsNeededForActivation: []
+  neededItems:
+  - "\u041E\u0442\u0432\u0451\u0440\u0442\u043A\u0430"
+  cannotInteractMessage: "\u041B\u044E\u043A \u0441 \u043F\u0440\u0438\u0432\u0438\u043D\u0447\u0435\u043D\u043D\u043E\u0439
+    \u043A\u0440\u044B\u0448\u043A\u043E\u0439, \u0447\u0442\u043E\u0431\u044B \u043E\u0442\u043A\u0440\u044B\u0442\u044C
+    \u0435\u0433\u043E, \u043D\u0443\u0436\u043D\u0430 \u043E\u0442\u0432\u0451\u0440\u0442\u043A\u0430"
+  transportPoint: {fileID: 1560833081}
 --- !u!43 &1794216373
 Mesh:
   m_ObjectHideFlags: 0
@@ -30862,6 +30892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TransportPoint
       objectReference: {fileID: 0}
+    - target: {fileID: 585728014593621251, guid: b9edc1a0c380f824cb0fba61f41ad003, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2449328184020711664, guid: b9edc1a0c380f824cb0fba61f41ad003, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -30920,7 +30954,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8826341970737205446, guid: b9edc1a0c380f824cb0fba61f41ad003, type: 3}
   m_PrefabInstance: {fileID: 2013797100}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1560833081}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bdcc2785c3b4391a8af506d4b2419c8, type: 3}

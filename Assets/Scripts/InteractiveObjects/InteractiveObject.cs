@@ -13,7 +13,7 @@ public abstract class InteractiveObject : MonoBehaviour
     [SerializeField] protected AfterInteraction afterInteraction;
     [SerializeField] protected string successfulInteractionMessage;
     [SerializeField] private InteractiveObject nextInteractionSettings;
-    private PlayerController player;
+    [SerializeField] private PlayerController player;
     private MessageView messageView;
 
     protected MessageView MessageView => messageView;
@@ -43,7 +43,7 @@ public abstract class InteractiveObject : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyUp(KeyCode.E) && player)
+        if (Input.GetKeyDown(KeyCode.E) && player)
         {
             if (TryToInteract(player))
             {

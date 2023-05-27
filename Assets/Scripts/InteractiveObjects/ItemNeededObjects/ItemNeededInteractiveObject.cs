@@ -1,21 +1,29 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
-public class ItemNeededInteractiveObject : InteractiveObject
+public class ItemNeededInteractiveObject : ActivationItemNeededObject
 {
-    [SerializeField] protected string neededItem;
+    [SerializeField] protected List<string> neededItems;
     [SerializeField] protected string cannotInteractMessage;
     
     protected override bool TryToInteract(PlayerController player)
     {
-        if (neededItem == "" || player.Inventory.ContainsItem(neededItem))
+        foreach (var item in neededItems)
         {
-            MessageView.HideMessage();
-            player.Inventory.RemoveItem(neededItem);
-            Interact(player);
-            return true;
+            if (!player.Inventory.ContainsItem(item))
+            {
+                MessageView.ShowMessage(cannotInteractMessage);
+                return false;
+            }
         }
-        MessageView.ShowMessage(cannotInteractMessage);
-        return false;
+        MessageView.HideMessage();
+        foreach (var item in neededItems)
+        {
+            player.Inventory.RemoveItem(item);
+        }
+        Interact(player);
+        return true;
+        
     }
 
     protected virtual void Interact(PlayerController player)

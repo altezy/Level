@@ -27,8 +27,11 @@ public abstract class InteractiveObject : MonoBehaviour
     {
         if (other.TryGetComponent<PlayerController>(out var player))
         {
-            player.InteractMessage.SetActive(true);
-            this.player = player;
+            if (CanActivate(player))
+            {
+                player.InteractMessage.SetActive(true);
+                this.player = player;
+            }
         }
     }
 
@@ -74,5 +77,7 @@ public abstract class InteractiveObject : MonoBehaviour
         }
     }
 
+    protected abstract bool CanActivate(PlayerController player);
+    
     protected abstract bool TryToInteract(PlayerController player);
 }

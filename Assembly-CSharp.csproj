@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\InteractiveObjects\ActivationItemNeededObject.cs" />
      <Compile Include="Assets\Scripts\InteractiveObjects\ItemNeededObjects\ContainerObject.cs" />
      <Compile Include="Assets\Scripts\InteractiveObjects\ItemNeededObjects\DoorWithCodeLock.cs" />
+     <Compile Include="Assets\Scripts\Transporting\TransportPoint.cs" />
      <Compile Include="Assets\Scripts\UI\MessageView.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerInventory.cs" />
      <Compile Include="Assets\Scripts\UI\InventoryView.cs" />
@@ -75,6 +76,7 @@
      <Folder Include="Assets\Prefabs" />
      <Folder Include="Assets\Prefabs\BuildingModules\LabCorridors" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <Folder Include="Assets\Scripts\Transporting" />
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\Materials\BuildingModules\Office" />
      <Folder Include="Assets\Textures\BuildingModules\LivingSections" />

@@ -7,8 +7,9 @@ public class TransportPoint : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent<PlayerController>(out var player))
+        if (other.TryGetComponent<PlayerController>(out var player) && !player.locked)
         {
+            player.locked = true;
             player.TransportMessage.SetActive(true);
             this.player = player;
         }
@@ -18,6 +19,7 @@ public class TransportPoint : MonoBehaviour
     {
         if (other.TryGetComponent<PlayerController>(out var player))
         {
+            player.locked = false;
             player.TransportMessage.SetActive(false);
             this.player = null;
         }

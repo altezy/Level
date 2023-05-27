@@ -14,7 +14,7 @@ public abstract class InteractiveObject : MonoBehaviour
     [SerializeField] protected AfterInteraction afterInteraction;
     [SerializeField] protected string successfulInteractionMessage;
     [SerializeField] private InteractiveObject nextInteractionSettings;
-    private PlayerController player;
+    [SerializeField] private PlayerController player;
     private MessageView messageView;
 
     protected MessageView MessageView => messageView;
@@ -24,32 +24,21 @@ public abstract class InteractiveObject : MonoBehaviour
         messageView = FindObjectOfType<MessageView>();
     }
 
-    private void OnEnable()
-    {
-        trigger.enabled = true;
-    }
-
-    private void OnDisable()
-    {
-        trigger.enabled = false;
-    }
-
     private void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent<PlayerController>(out var player))
+        if (enabled && other.TryGetComponent<PlayerController>(out var player) && !player.locked && CanActivate(player))
         {
-            if (CanActivate(player))
-            {
-                player.InteractMessage.SetActive(true);
-                this.player = player;
-            }
+            player.locked = true;
+            player.InteractMessage.SetActive(true);
+            this.player = player;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.TryGetComponent<PlayerController>(out var player))
+        if (enabled && other.TryGetComponent<PlayerController>(out var player))
         {
+            player.locked = false;
             player.InteractMessage.SetActive(false);
             this.player = null;
         }
@@ -64,20 +53,23 @@ public abstract class InteractiveObject : MonoBehaviour
                 messageView.ShowMessage(successfulInteractionMessage);
                 if (nextInteractionSettings)
                 {
+                    player.locked = false;
                     nextInteractionSettings.enabled = true;
-                    enabled = false;
                 }
                 switch (afterInteraction)
                 {
                     case AfterInteraction.DestroyAfterInteraction:
+                        player.locked = false;
                         player.InteractMessage.SetActive(false);
                         Destroy(gameObject);
                         break;
                     case AfterInteraction.DisableAfterInteraction:
+                        player.locked = false;
                         player.InteractMessage.SetActive(false);
                         enabled = false;
                         break;
                     case AfterInteraction.DeactivateAfterInteraction:
+                        player.locked = false;
                         player.InteractMessage.SetActive(false);
                         gameObject.SetActive(false);
                         break;

@@ -665,7 +665,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-88206
+  m_Name: pb_Mesh23812
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -1077,6 +1077,7 @@ MonoBehaviour:
   successfulInteractionMessage: "\u0412\u044B \u043D\u0430\u0448\u043B\u0438 \u043A\u0435\u0440\u043E\u0441\u0438\u043D\u043E\u0432\u0443\u044E
     \u043B\u0430\u043C\u043F\u0443"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems: []
   cannotInteractMessage: 
@@ -1099,7 +1100,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.6430012
   m_Center: {x: 0.05113566, y: 0.15250015, z: -0.52913356}
@@ -2974,7 +2975,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-87992
+  m_Name: pb_Mesh25220
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -3259,6 +3260,7 @@ MonoBehaviour:
     \u043F\u043E\u0432\u043E\u0440\u043E\u0442 \u0441\u0442\u0440\u0435\u043B\u043E\u043A
     \u0447\u0430\u0441\u043E\u0432"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems: []
   cannotInteractMessage: 
@@ -3282,7 +3284,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.4846583
   m_Center: {x: 0.2609917, y: 0.032500267, z: -0.4036674}
@@ -4666,6 +4668,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3583308494062966511, guid: b9edc1a0c380f824cb0fba61f41ad003, type: 3}
+      propertyPath: m_Size.x
+      value: 1.068161
+      objectReference: {fileID: 0}
+    - target: {fileID: 3583308494062966511, guid: b9edc1a0c380f824cb0fba61f41ad003, type: 3}
+      propertyPath: m_Center.x
+      value: -0.119659424
+      objectReference: {fileID: 0}
     - target: {fileID: 8826341970737205446, guid: b9edc1a0c380f824cb0fba61f41ad003, type: 3}
       propertyPath: correspondingPoint
       value: 
@@ -4763,7 +4773,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-85632
+  m_Name: pb_Mesh24316
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -5555,6 +5565,7 @@ MonoBehaviour:
   successfulInteractionMessage: "\u0412\u044B \u043D\u0430\u0448\u043B\u0438 \u0432
     \u0443\u0433\u043B\u044F\u0445 \u043E\u0431\u0440\u044B\u0432\u043E\u043A \u043A\u043E\u0434\u0430"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u0429\u0438\u043F\u0446\u044B"
@@ -5897,7 +5908,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 1.36905
   m_Center: {x: -0.39155483, y: 1.1925001, z: -1.3824997}
@@ -5957,6 +5968,7 @@ MonoBehaviour:
     \u0434\u0432\u0435\u0440\u044C \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E
     \u043A\u043B\u044E\u0447\u0430"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041A\u043B\u044E\u0447 \u21162"
@@ -5979,7 +5991,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 1.1199999
   m_Center: {x: 0.30750275, y: 1.1199999, z: 0.42000008}
@@ -7124,7 +7136,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh130058
+  m_Name: pb_Mesh24178
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -7603,6 +7615,7 @@ MonoBehaviour:
     \u0434\u0432\u0435\u0440\u044C, \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u044F
     \u043A\u043E\u0434"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041A\u043E\u0434 \u21161"
@@ -7628,7 +7641,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 1.1199999
   m_Center: {x: 0.30750275, y: 1.1199999, z: 0.42000008}
@@ -8800,6 +8813,7 @@ MonoBehaviour:
   successfulInteractionMessage: "\u0412\u044B \u043D\u0430\u0448\u043B\u0438 \u043A\u0430\u043C\u0438\u043D\u043D\u044B\u0435
     \u0449\u0438\u043F\u0446\u044B"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems: []
   cannotInteractMessage: 
@@ -8822,7 +8836,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.7873802
   m_Center: {x: 0.16373825, y: 0.008749962, z: -0.25}
@@ -9197,7 +9211,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 1.1679866
   m_Center: {x: -0.57781094, y: 0.48499966, z: 0.5862966}
@@ -9219,6 +9233,7 @@ MonoBehaviour:
     \u043E\u0431\u0438\u0432\u043A\u0443, \u043D\u043E \u043F\u043E\u0434 \u043D\u0435\u0439
     \u043D\u0438\u0447\u0435\u0433\u043E \u043D\u0435\u0442"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041D\u043E\u0436\u043D\u0438\u0446\u044B"
@@ -9614,7 +9629,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh129928
+  m_Name: pb_Mesh24048
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -10143,6 +10158,7 @@ MonoBehaviour:
   afterInteraction: 3
   successfulInteractionMessage: "\u0412\u044B \u043D\u0430\u0448\u043B\u0438 \u0442\u0440\u0430\u0444\u0430\u0440\u0435\u0442"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems: []
   cannotInteractMessage: 
@@ -10165,7 +10181,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.5414283
   m_Center: {x: 0.045502424, y: 0.025000095, z: -0.46193075}
@@ -12101,6 +12117,7 @@ MonoBehaviour:
     \u0434\u0432\u0435\u0440\u044C \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E
     \u043A\u043B\u044E\u0447\u0430"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041A\u043B\u044E\u0447 \u21163"
@@ -12123,7 +12140,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 1.1199999
   m_Center: {x: 0.30750275, y: 1.1199999, z: 0.42000008}
@@ -12845,7 +12862,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh130334
+  m_Name: pb_Mesh24508
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -13340,7 +13357,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh129874
+  m_Name: pb_Mesh23994
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -13686,7 +13703,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.54455614
   m_Center: {x: 0.44365692, y: 0.015000343, z: 0.24839926}
@@ -14024,6 +14041,7 @@ MonoBehaviour:
     \u0442\u0440\u0430\u0444\u0430\u0440\u0435\u0442 \u043A \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0443
     \u0438 \u0443\u0437\u043D\u0430\u043B\u0438 \u043A\u043E\u0434"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u0422\u0440\u0430\u0444\u0430\u0440\u0435\u0442"
@@ -14286,7 +14304,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 1.1043628
   m_Center: {x: -0.57871044, y: 0.48499966, z: 0.75181556}
@@ -14308,6 +14326,7 @@ MonoBehaviour:
     \u043E\u0431\u0438\u0432\u043A\u0443 \u043A\u0440\u0435\u0441\u043B\u0430 \u0438
     \u043D\u0430\u0448\u043B\u0438 \u043F\u043E\u0434 \u043D\u0435\u0439 \u043A\u043B\u044E\u0447"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041D\u043E\u0436\u043D\u0438\u0446\u044B"
@@ -14754,6 +14773,7 @@ MonoBehaviour:
     \u0441\u0435\u0439\u0444 \u0438 \u043D\u0430\u0448\u043B\u0438 \u0432 \u043D\u0451\u043C
     \u043A\u043B\u044E\u0447"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u0424\u0440\u0430\u0433\u043C\u0435\u043D\u0442 \u043A\u043E\u0434\u0430 \u21161"
@@ -14783,7 +14803,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.6371359
   m_Center: {x: 0.39, y: 0.3421371, z: 0.24750042}
@@ -15175,7 +15195,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh130268
+  m_Name: pb_Mesh24420
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -15608,7 +15628,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh129702
+  m_Name: pb_Mesh23780
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -16185,6 +16205,7 @@ MonoBehaviour:
     \u043E\u0442\u043A\u0440\u044B\u043B\u0438\u0441\u044C \u0438 \u0432\u044B \u043D\u0430\u0448\u043B\u0438
     \u0432 \u043D\u0438\u0445 \u0444\u0440\u0430\u0433\u043C\u0435\u043D\u0442 \u043A\u043E\u0434\u0430"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation:
   - "\u041F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430 \u21163 (\u0447\u0430\u0441\u044B)"
   neededItems:
@@ -16209,12 +16230,12 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.25927937
+  m_Radius: 0.3072176
   m_Height: 1.1217061
   m_Direction: 0
-  m_Center: {x: 0.56085086, y: 0.37162787, z: 0.14500044}
+  m_Center: {x: 0.5608508, y: 0.49761873, z: 0.1450004}
 --- !u!64 &987462657
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17075,7 +17096,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh130040
+  m_Name: pb_Mesh24160
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -17858,7 +17879,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh129972
+  m_Name: pb_Mesh24092
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -19094,7 +19115,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh130928
+  m_Name: pb_Mesh25158
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -19881,7 +19902,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-77460
+  m_Name: pb_Mesh23864
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -20909,7 +20930,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-87050
+  m_Name: pb_Mesh24236
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -21206,7 +21227,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-82808
+  m_Name: pb_Mesh24442
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -21705,7 +21726,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh129892
+  m_Name: pb_Mesh24012
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -25025,6 +25046,7 @@ MonoBehaviour:
     \u0432\u044B \u043D\u0430\u0448\u043B\u0438 \u0444\u0440\u0430\u0433\u043C\u0435\u043D\u0442
     \u043A\u043E\u0434\u0430"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041B\u0430\u043C\u043F\u0430"
@@ -25047,9 +25069,9 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 1.47
   m_Center: {x: 0, y: 0, z: -0.92}
@@ -25889,6 +25911,7 @@ MonoBehaviour:
   afterInteraction: 1
   successfulInteractionMessage: "\u042F\u0449\u0438\u043A \u043F\u0443\u0441\u0442"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems: []
   cannotInteractMessage: 
@@ -25910,7 +25933,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.84
   m_Center: {x: 0, y: 0.018229559, z: 0}
@@ -26533,7 +26556,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh130238
+  m_Name: pb_Mesh24390
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -26956,7 +26979,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh130458
+  m_Name: pb_Mesh24646
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -27552,7 +27575,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 1.2877388
   m_Center: {x: 0.28690577, y: 0.93855286, z: 0.88996434}
@@ -27563,7 +27586,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1790428584}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a1a6e25959ac46d19ae3110bdd7bcdc9, type: 3}
   m_Name: 
@@ -27573,6 +27596,7 @@ MonoBehaviour:
   successfulInteractionMessage: "\u0412\u044B \u043E\u0442\u043A\u0440\u044B\u043B\u0438
     \u043B\u044E\u043A \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E \u043E\u0442\u0432\u0451\u0440\u0442\u043A\u0438"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041E\u0442\u0432\u0451\u0440\u0442\u043A\u0430"
@@ -27586,7 +27610,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh130834
+  m_Name: pb_Mesh25062
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -27949,7 +27973,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh130082
+  m_Name: pb_Mesh24202
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -29153,7 +29177,6 @@ GameObject:
   - component: {fileID: 1945597526}
   - component: {fileID: 1945597525}
   - component: {fileID: 1945597524}
-  - component: {fileID: 1945597523}
   - component: {fileID: 1945597522}
   - component: {fileID: 1945597521}
   m_Layer: 0
@@ -29171,7 +29194,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1945597519}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.153671, y: -2.7999997, z: 14.424999}
+  m_LocalPosition: {x: 13.02, y: -2.7999997, z: 14.424999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29195,9 +29218,10 @@ MonoBehaviour:
   successfulInteractionMessage: "\u0412\u044B \u0443\u0431\u0440\u0430\u043B\u0438
     \u043A\u043E\u0432\u0451\u0440"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   objectsUnderCarpet:
   - {fileID: 539753043}
-  - {fileID: 0}
+  - {fileID: 1790428592}
 --- !u!65 &1945597522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29215,32 +29239,10 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Size: {x: 4.1324387, y: 0.0149998665, z: 4.511553}
-  m_Center: {x: -1.7636757, y: 0.007499695, z: -1.9579897}
---- !u!64 &1945597523
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1945597519}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1104424307}
+  serializedVersion: 3
+  m_Size: {x: 4.4384613, y: 0.0149998665, z: 4.818486}
+  m_Center: {x: -1.8710938, y: 0.007499695, z: -1.9457154}
 --- !u!33 &1945597524
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -29700,12 +29702,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 20
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 30
+  m_fontSizeMax: 20
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
@@ -31185,6 +31187,7 @@ MonoBehaviour:
   successfulInteractionMessage: "\u0412\u044B \u043D\u0430\u0448\u043B\u0438 \u0432
     \u044F\u0449\u0438\u043A\u0435 \u043F\u0440\u043E\u0432\u043E\u043B\u043E\u043A\u0443"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems: []
   cannotInteractMessage: 
@@ -31207,7 +31210,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.84
   m_Center: {x: 0, y: 0.018229559, z: 0}
@@ -31750,7 +31753,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-87362
+  m_Name: pb_Mesh24616
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -32610,7 +32613,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-87814
+  m_Name: pb_Mesh24786
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -33186,6 +33189,7 @@ MonoBehaviour:
     \u043D\u0430 \u043E\u0434\u043D\u0443 \u0438\u0437 \u043A\u043D\u0438\u0433 \u0432
     \u0448\u043A\u0430\u0444\u0443"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems: []
   cannotInteractMessage: 
@@ -33208,7 +33212,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 1.4904304
   m_Center: {x: -0.11106634, y: 0.41757774, z: -0.069719315}
@@ -33582,7 +33586,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7877388804873661477, guid: 4c04f5ed0b8056f43a46fb184cdc22aa, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33802,7 +33806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8012910964522211573, guid: bf067f0a875000a43afd2990e4b23c27, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34867,6 +34871,7 @@ MonoBehaviour:
     \u043E\u0442\u043A\u0440\u044B\u043B\u0441\u044F \u0442\u0430\u0439\u043D\u044B\u0439
     \u043F\u0440\u043E\u0445\u043E\u0434"
   nextInteractionSettings: {fileID: 6147559249464042868}
+  player: {fileID: 0}
   itemsNeededForActivation:
   - "\u041F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430 \u21161 (\u043A\u043D\u0438\u0433\u0430)"
   neededItems:
@@ -34889,7 +34894,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 1.577446
   m_Center: {x: -0.077445984, y: 0.00000042073864, z: 0}
@@ -34912,6 +34917,7 @@ MonoBehaviour:
     \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u043E\u0439, \u0438 \u043D\u0430\u0448\u043B\u0438
     \u0432 \u043D\u0435\u0439 \u0444\u0440\u0430\u0433\u043C\u0435\u043D\u0442 \u043A\u043E\u0434\u0430"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation:
   - "\u041F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430 \u21162 (\u043A\u043D\u0438\u0433\u0430)"
   neededItems:
@@ -35122,7 +35128,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1614071740445815940, guid: d105f6c538ef8434ea049c8ba09e9e76, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1668967297628062863, guid: d105f6c538ef8434ea049c8ba09e9e76, type: 3}
       propertyPath: m_Name
@@ -35513,7 +35519,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 1.04
   m_Center: {x: 0, y: 0.9514736, z: 0.00000047683716}
@@ -35534,6 +35540,7 @@ MonoBehaviour:
   successfulInteractionMessage: "\u0412\u044B \u0434\u043E\u0441\u0442\u0430\u043B\u0438
     \u043F\u0440\u043E\u0432\u043E\u043B\u043E\u043A\u043E\u0439 \u043A\u043B\u044E\u0447"
   nextInteractionSettings: {fileID: 7416532079718061148}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041F\u0440\u043E\u0432\u043E\u043B\u043E\u043A\u0430"
@@ -35560,6 +35567,7 @@ MonoBehaviour:
   successfulInteractionMessage: "\u0412\u044B \u043E\u0442\u043A\u0440\u044B\u043B\u0438
     \u0434\u0432\u0435\u0440\u044C"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u041A\u043B\u044E\u0447 \u21161"
@@ -36036,6 +36044,7 @@ MonoBehaviour:
     \u0434\u0432\u0435\u0440\u044C \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E
     \u0433\u0432\u043E\u0437\u0434\u043E\u0434\u0451\u0440\u0430"
   nextInteractionSettings: {fileID: 0}
+  player: {fileID: 0}
   itemsNeededForActivation: []
   neededItems:
   - "\u0413\u0432\u043E\u0437\u0434\u043E\u0434\u0451\u0440"
@@ -36059,7 +36068,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.9514736
   m_Center: {x: 0, y: 0.9514736, z: 0}

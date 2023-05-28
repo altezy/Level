@@ -10,7 +10,6 @@ public abstract class InteractiveObject : MonoBehaviour
         DestroyAfterInteraction
     }
 
-    [SerializeField] private Collider trigger;
     [SerializeField] protected AfterInteraction afterInteraction;
     [SerializeField] protected string successfulInteractionMessage;
     [SerializeField] private InteractiveObject nextInteractionSettings;
@@ -55,6 +54,9 @@ public abstract class InteractiveObject : MonoBehaviour
                 {
                     player.locked = false;
                     nextInteractionSettings.enabled = true;
+                    nextInteractionSettings.player = player;
+                    enabled = false;
+                    return;
                 }
                 switch (afterInteraction)
                 {

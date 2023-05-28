@@ -1,16 +1,28 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ItemNeededInteractiveObject : ActivationItemNeededObject
 {
-    [SerializeField] protected List<string> neededItems;
+    [Serializable]
+    protected struct NeededItem
+    {
+        [SerializeField] private string itemName;
+        [SerializeField] private bool spendAfterUse;
+
+        public string ItemName => itemName;
+        public bool SpendAfterUse => spendAfterUse;
+    }
+    
+    [SerializeField] protected List<NeededItem> neededItems;
     [SerializeField] protected string cannotInteractMessage;
     
     protected override bool TryToInteract(PlayerController player)
     {
         foreach (var item in neededItems)
         {
-            if (!player.Inventory.ContainsItem(item))
+            Debug.Log(player.Inventory.ContainsItem(item.ItemName));
+            if (!player.Inventory.ContainsItem(item.ItemName))
             {
                 MessageView.ShowMessage(cannotInteractMessage);
                 return false;
@@ -19,7 +31,10 @@ public class ItemNeededInteractiveObject : ActivationItemNeededObject
         MessageView.HideMessage();
         foreach (var item in neededItems)
         {
-            player.Inventory.RemoveItem(item);
+            if (item.SpendAfterUse)
+            {
+                player.Inventory.RemoveItem(item.ItemName);
+            }
         }
         Interact(player);
         return true;

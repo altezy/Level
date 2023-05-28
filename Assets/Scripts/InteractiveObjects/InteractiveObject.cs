@@ -13,7 +13,7 @@ public abstract class InteractiveObject : MonoBehaviour
     [SerializeField] protected AfterInteraction afterInteraction;
     [SerializeField] protected string successfulInteractionMessage;
     [SerializeField] private InteractiveObject nextInteractionSettings;
-    [SerializeField] private PlayerController player;
+    private PlayerController player;
     private MessageView messageView;
 
     protected MessageView MessageView => messageView;

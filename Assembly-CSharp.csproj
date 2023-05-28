@@ -48,12 +48,12 @@
      <Compile Include="Assets\Scripts\InteractiveObjects\ItemNeededObjects\DoorWithWindowAndKey.cs" />
      <Compile Include="Assets\Scripts\InteractiveObjects\ItemNeededObjects\Hatch.cs" />
      <Compile Include="Assets\Scripts\InteractiveObjects\ItemNeededObjects\ItemNeededInteractiveObject.cs" />
+     <Compile Include="Assets\Scripts\InteractiveObjects\ItemNeededObjects\BookshelfWithSecretPassage.cs" />
      <Compile Include="Assets\Scripts\InteractiveObjects\Carpet.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMover.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
      <Compile Include="Assets\Scripts\InteractiveObjects\ActivationItemNeededObject.cs" />
      <Compile Include="Assets\Scripts\InteractiveObjects\ItemNeededObjects\ContainerObject.cs" />
-     <Compile Include="Assets\Scripts\InteractiveObjects\ItemNeededObjects\DoorWithCodeLock.cs" />
      <Compile Include="Assets\Scripts\Transporting\TransportPoint.cs" />
      <Compile Include="Assets\Scripts\UI\MessageView.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerInventory.cs" />

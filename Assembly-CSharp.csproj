@@ -131,6 +131,7 @@
      <Folder Include="Assets\Materials" />
      <Folder Include="Assets\Prefabs\BuildingModules\Office" />
      <Folder Include="Assets\Textures\BuildingModules\Lounge\LoungeWalls" />
+     <Folder Include="Assets\Lights" />
      <Folder Include="Assets\Textures\BuildingModules\Basement" />
      <Folder Include="Assets\Textures\BuildingModules\Lounge" />
      <Folder Include="Assets\Materials\Draft" />

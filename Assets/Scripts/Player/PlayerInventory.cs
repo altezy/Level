@@ -4,11 +4,11 @@ using UnityEngine;
 public class PlayerInventory : MonoBehaviour
 {
     [SerializeField] private InventoryView view;
-    private List<string> items;
+    [SerializeField]private List<string> items;
 
     private void Start()
     {
-        items = new List<string>();
+        //items = new List<string>();
     }
 
     public void AddItem(string item)

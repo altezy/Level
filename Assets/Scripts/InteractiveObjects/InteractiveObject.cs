@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class InteractiveObject : MonoBehaviour
+public class InteractiveObject : MonoBehaviour
 {
     protected enum AfterInteraction
     {
@@ -13,7 +13,7 @@ public abstract class InteractiveObject : MonoBehaviour
     [SerializeField] protected AfterInteraction afterInteraction;
     [SerializeField] protected string successfulInteractionMessage;
     [SerializeField] private InteractiveObject nextInteractionSettings;
-    private PlayerController player;
+    [SerializeField]private PlayerController player;
     private MessageView messageView;
 
     protected MessageView MessageView => messageView;
@@ -81,8 +81,14 @@ public abstract class InteractiveObject : MonoBehaviour
             }
         }
     }
-
-    protected abstract bool CanActivate(PlayerController player);
     
-    protected abstract bool TryToInteract(PlayerController player);
+    protected virtual bool TryToInteract(PlayerController player)
+    {
+        return true;
+    }
+
+    protected virtual bool CanActivate(PlayerController player)
+    {
+        return true;
+    }
 }

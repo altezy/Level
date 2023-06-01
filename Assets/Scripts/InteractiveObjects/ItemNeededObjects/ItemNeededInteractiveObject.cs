@@ -21,7 +21,6 @@ public class ItemNeededInteractiveObject : ActivationItemNeededObject
     {
         foreach (var item in neededItems)
         {
-            Debug.Log(player.Inventory.ContainsItem(item.ItemName));
             if (!player.Inventory.ContainsItem(item.ItemName))
             {
                 MessageView.ShowMessage(cannotInteractMessage);

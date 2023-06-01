@@ -191,6 +191,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: {fileID: 2986756830515422923}
   interactMessage: {fileID: 0}
+  transportMessage: {fileID: 0}
+  locked: 0
 --- !u!114 &2986756830515422923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,6 +206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   view: {fileID: 0}
+  items: []
 --- !u!114 &1494731374032342923
 MonoBehaviour:
   m_ObjectHideFlags: 0
